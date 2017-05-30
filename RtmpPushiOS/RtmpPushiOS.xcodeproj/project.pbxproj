@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C1EAB51ED86C8400EA6020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C1EAB41ED86C8400EA6020 /* main.m */; };
+		46C1EAB81ED86C8400EA6020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C1EAB71ED86C8400EA6020 /* AppDelegate.m */; };
+		46C1EABB1ED86C8400EA6020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C1EABA1ED86C8400EA6020 /* ViewController.m */; };
+		46C1EABE1ED86C8400EA6020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C1EABC1ED86C8400EA6020 /* Main.storyboard */; };
+		46C1EAC01ED86C8400EA6020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C1EABF1ED86C8400EA6020 /* Assets.xcassets */; };
+		46C1EAC31ED86C8400EA6020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C1EAC11ED86C8400EA6020 /* LaunchScreen.storyboard */; };
+		46C1EACF1ED882EC00EA6020 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C1EACE1ED882EC00EA6020 /* VideoToolbox.framework */; };
+		46CE84101EDD5C1000BE73BD /* RTMPPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CE840B1EDD5C1000BE73BD /* RTMPPusher.m */; };
+		46CE84111EDD5C1000BE73BD /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CE840D1EDD5C1000BE73BD /* VideoEncoder.m */; };
+		46CE84121EDD5C1000BE73BD /* VideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CE840F1EDD5C1000BE73BD /* VideoFrame.m */; };
+		46CE84341EDD74B100BE73BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE84331EDD74B100BE73BD /* libz.tbd */; };
+		46CE84361EDD74BE00BE73BD /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE84351EDD74BE00BE73BD /* libc.tbd */; };
+		46CE84961EDD786800BE73BD /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE84931EDD786800BE73BD /* libcrypto.a */; };
+		46CE84971EDD786800BE73BD /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE84941EDD786800BE73BD /* librtmp.a */; };
+		46CE84981EDD786800BE73BD /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE84951EDD786800BE73BD /* libssl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46C1EAB01ED86C8400EA6020 /* RtmpPushiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RtmpPushiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C1EAB41ED86C8400EA6020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46C1EAB61ED86C8400EA6020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46C1EAB71ED86C8400EA6020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46C1EAB91ED86C8400EA6020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46C1EABA1ED86C8400EA6020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46C1EABD1ED86C8400EA6020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46C1EABF1ED86C8400EA6020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C1EAC21ED86C8400EA6020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46C1EAC41ED86C8400EA6020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C1EACE1ED882EC00EA6020 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		46CE840A1EDD5C1000BE73BD /* RTMPPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPPusher.h; sourceTree = "<group>"; };
+		46CE840B1EDD5C1000BE73BD /* RTMPPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMPPusher.m; sourceTree = "<group>"; };
+		46CE840C1EDD5C1000BE73BD /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		46CE840D1EDD5C1000BE73BD /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		46CE840E1EDD5C1000BE73BD /* VideoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFrame.h; sourceTree = "<group>"; };
+		46CE840F1EDD5C1000BE73BD /* VideoFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFrame.m; sourceTree = "<group>"; };
+		46CE84141EDD5C3800BE73BD /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		46CE84151EDD5C3800BE73BD /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		46CE84161EDD5C3800BE73BD /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		46CE84171EDD5C3800BE73BD /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		46CE84331EDD74B100BE73BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		46CE84351EDD74BE00BE73BD /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		46CE84931EDD786800BE73BD /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		46CE84941EDD786800BE73BD /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		46CE84951EDD786800BE73BD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C1EAAD1ED86C8400EA6020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CE84971EDD786800BE73BD /* librtmp.a in Frameworks */,
+				46CE84361EDD74BE00BE73BD /* libc.tbd in Frameworks */,
+				46CE84981EDD786800BE73BD /* libssl.a in Frameworks */,
+				46CE84341EDD74B100BE73BD /* libz.tbd in Frameworks */,
+				46CE84961EDD786800BE73BD /* libcrypto.a in Frameworks */,
+				46C1EACF1ED882EC00EA6020 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C1EAA71ED86C8400EA6020 = {
+			isa = PBXGroup;
+			children = (
+				46C1EAB21ED86C8400EA6020 /* RtmpPushiOS */,
+				46C1EAB11ED86C8400EA6020 /* Products */,
+				46C1EACD1ED882EC00EA6020 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46C1EAB11ED86C8400EA6020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C1EAB01ED86C8400EA6020 /* RtmpPushiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C1EAB21ED86C8400EA6020 /* RtmpPushiOS */ = {
+			isa = PBXGroup;
+			children = (
+				46CE84131EDD5C3800BE73BD /* librtmp */,
+				46CE84931EDD786800BE73BD /* libcrypto.a */,
+				46CE84941EDD786800BE73BD /* librtmp.a */,
+				46CE84951EDD786800BE73BD /* libssl.a */,
+				46CE840A1EDD5C1000BE73BD /* RTMPPusher.h */,
+				46CE840B1EDD5C1000BE73BD /* RTMPPusher.m */,
+				46CE840C1EDD5C1000BE73BD /* VideoEncoder.h */,
+				46CE840D1EDD5C1000BE73BD /* VideoEncoder.m */,
+				46CE840E1EDD5C1000BE73BD /* VideoFrame.h */,
+				46CE840F1EDD5C1000BE73BD /* VideoFrame.m */,
+				46C1EAB61ED86C8400EA6020 /* AppDelegate.h */,
+				46C1EAB71ED86C8400EA6020 /* AppDelegate.m */,
+				46C1EAB91ED86C8400EA6020 /* ViewController.h */,
+				46C1EABA1ED86C8400EA6020 /* ViewController.m */,
+				46C1EABC1ED86C8400EA6020 /* Main.storyboard */,
+				46C1EABF1ED86C8400EA6020 /* Assets.xcassets */,
+				46C1EAC11ED86C8400EA6020 /* LaunchScreen.storyboard */,
+				46C1EAC41ED86C8400EA6020 /* Info.plist */,
+				46C1EAB31ED86C8400EA6020 /* Supporting Files */,
+			);
+			path = RtmpPushiOS;
+			sourceTree = "<group>";
+		};
+		46C1EAB31ED86C8400EA6020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C1EAB41ED86C8400EA6020 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46C1EACD1ED882EC00EA6020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46CE84351EDD74BE00BE73BD /* libc.tbd */,
+				46CE84331EDD74B100BE73BD /* libz.tbd */,
+				46C1EACE1ED882EC00EA6020 /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46CE84131EDD5C3800BE73BD /* librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				46CE84141EDD5C3800BE73BD /* amf.h */,
+				46CE84151EDD5C3800BE73BD /* http.h */,
+				46CE84161EDD5C3800BE73BD /* log.h */,
+				46CE84171EDD5C3800BE73BD /* rtmp.h */,
+			);
+			path = librtmp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C1EAAF1ED86C8400EA6020 /* RtmpPushiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C1EAC71ED86C8400EA6020 /* Build configuration list for PBXNativeTarget "RtmpPushiOS" */;
+			buildPhases = (
+				46C1EAAC1ED86C8400EA6020 /* Sources */,
+				46C1EAAD1ED86C8400EA6020 /* Frameworks */,
+				46C1EAAE1ED86C8400EA6020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RtmpPushiOS;
+			productName = RtmpPushiOS;
+			productReference = 46C1EAB01ED86C8400EA6020 /* RtmpPushiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C1EAA81ED86C8400EA6020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "姚伟聪";
+				TargetAttributes = {
+					46C1EAAF1ED86C8400EA6020 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AVAV86X4SQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46C1EAAB1ED86C8400EA6020 /* Build configuration list for PBXProject "RtmpPushiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C1EAA71ED86C8400EA6020;
+			productRefGroup = 46C1EAB11ED86C8400EA6020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C1EAAF1ED86C8400EA6020 /* RtmpPushiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46C1EAAE1ED86C8400EA6020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C1EAC31ED86C8400EA6020 /* LaunchScreen.storyboard in Resources */,
+				46C1EAC01ED86C8400EA6020 /* Assets.xcassets in Resources */,
+				46C1EABE1ED86C8400EA6020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C1EAAC1ED86C8400EA6020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C1EABB1ED86C8400EA6020 /* ViewController.m in Sources */,
+				46CE84101EDD5C1000BE73BD /* RTMPPusher.m in Sources */,
+				46C1EAB81ED86C8400EA6020 /* AppDelegate.m in Sources */,
+				46CE84111EDD5C1000BE73BD /* VideoEncoder.m in Sources */,
+				46C1EAB51ED86C8400EA6020 /* main.m in Sources */,
+				46CE84121EDD5C1000BE73BD /* VideoFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46C1EABC1ED86C8400EA6020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C1EABD1ED86C8400EA6020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46C1EAC11ED86C8400EA6020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C1EAC21ED86C8400EA6020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46C1EAC51ED86C8400EA6020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46C1EAC61ED86C8400EA6020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C1EAC81ED86C8400EA6020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVAV86X4SQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RtmpPushiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RtmpPushiOS",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yaoweicong.RtmpPushiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46C1EAC91ED86C8400EA6020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVAV86X4SQ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RtmpPushiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RtmpPushiOS",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yaoweicong.RtmpPushiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C1EAAB1ED86C8400EA6020 /* Build configuration list for PBXProject "RtmpPushiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C1EAC51ED86C8400EA6020 /* Debug */,
+				46C1EAC61ED86C8400EA6020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C1EAC71ED86C8400EA6020 /* Build configuration list for PBXNativeTarget "RtmpPushiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C1EAC81ED86C8400EA6020 /* Debug */,
+				46C1EAC91ED86C8400EA6020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C1EAA81ED86C8400EA6020 /* Project object */;
+}
